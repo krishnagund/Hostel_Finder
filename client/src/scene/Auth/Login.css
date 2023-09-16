@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  font-family: "Poppins";
+}
+.container .left {
+  background: url("public/firstphoto.jpg");
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-position: center;
+  background-size: cover;
+}
+.container .inner {
+  padding: 5rem;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.26);
+  color: white;
+}
+.container .left .inner .heading {
+  font-size: 7rem;
+  width: 50%;
+}
+.container .left .sub-text {
+  font-size: 2rem;
+}
+.container .right {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5rem;
+  padding: 2rem;
+}
+
+.container .right .heading {
+  font-size: 7rem;
+}
+.container .right form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  gap: 2rem;
+  align-items: center;
+}
+.container .right form > * {
+  width: 100%;
+}
+.container .right form input {
+  height: 2rem;
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 1rem;
+}
+input:autofill {
+  background-color: black;
+  -webkit-text-fill-color: black;
+}
+input:-webkit-autofill {
+  background-color: black;
+  -webkit-text-fill-color: black;
+}
+
+.container .right form .submit {
+  height: 2.5rem !important;
+  padding: 0;
+  border: 2px solid grey !important;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  width: 50%;
+  font-size: 1.5rem;
+}
+.container .right form .error {
+  border: 2px solid red !important;
+}
+.container .right .errorText {
+  color: red;
+  font-size: 0.7rem;
+}

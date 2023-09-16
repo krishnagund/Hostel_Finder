@@ -1,0 +1,40 @@
+export const Hostel = [
+  {
+    hostelName: "Yemul Hostel",
+    address: "Annapurna Nager Kopargaon",
+    contact: "+91 70205 72033",
+    type: "Boys",
+    rent: "1500",
+    available: 5,
+  },
+  {
+    hostelName: "Sunil phade",
+    address: "Opposite Side of Sanjivani Sugar Factory",
+    contact: "+91 3298342233",
+    type: "Boys",
+    rent: "1500",
+    available: 5,
+  },
+  {
+    hostelName: "Sai Sundar bhavan",
+    address: "Annapurna Nagar ,Sanjivani College Road",
+    contact: "+91 9011640575",
+    type: "Boys",
+    rent: "1500",
+    available: 5,
+  },
+  {
+    hostelName: "Nadini Hostel",
+    address: "Near Petrol Pump",
+    contact: "+91 8113412234",
+    type: "male",
+    rent: "1500",
+  },
+  {
+    hostelName: "Major House",
+    address: "Near Sanjivani College",
+    contact: "+91 8111323424",
+    type: "Boys",
+    rent: "1500",
+  },
+];

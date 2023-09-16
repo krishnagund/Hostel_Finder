@@ -1,0 +1,17 @@
+/* * {
+  border: 1px solid red;
+} */
+.feed {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 10rem;
+  gap: 5rem;
+  background-color: #11111b;
+}
+.feed .items {
+  /* width: 60%; */
+  /* position: relative; */
+}
