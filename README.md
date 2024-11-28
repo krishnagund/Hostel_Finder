@@ -8,5 +8,5 @@
 5. npm run dev
 
 ## output 
- ![alt](output.png)
+ ![alt](output1.png)
  
